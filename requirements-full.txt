@@ -1,0 +1,3 @@
+# Optional: better semantic embeddings (local, free). Installed automatically by the launcher
+# unless CINEMIND_LITE=1. Without it CineMind uses TF-IDF + LSA.
+sentence-transformers>=2.7

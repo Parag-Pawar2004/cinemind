@@ -1,0 +1,139 @@
+{
+  "agent_suite": {
+    "queries": [
+      {
+        "query": "dark mind-bending thriller with a big twist",
+        "n": 10,
+        "filter_precision": 1.0,
+        "diversity_ILD": 0.782,
+        "novelty": 9.966,
+        "top3": [
+          "Dark City",
+          "Nocturnal Animals",
+          "Confessions of a Dangerous Mind"
+        ],
+        "intent_mode": "llm"
+      },
+      {
+        "query": "feel-good Korean drama about friendship and healing",
+        "n": 10,
+        "filter_precision": 1.0,
+        "diversity_ILD": 0.389,
+        "novelty": 0.144,
+        "top3": [
+          "Extraordinary Attorney Woo",
+          "Move to Heaven",
+          "One More Happy Ending"
+        ],
+        "intent_mode": "llm"
+      },
+      {
+        "query": "epic Telugu action movie with mythology",
+        "n": 10,
+        "filter_precision": 1.0,
+        "diversity_ILD": 0.521,
+        "novelty": 0.774,
+        "top3": [
+          "Baahubali: The Beginning",
+          "Saaho",
+          "Vikramarkudu"
+        ],
+        "intent_mode": "llm"
+      },
+      {
+        "query": "lighthearted Bollywood romcom",
+        "n": 10,
+        "filter_precision": 1.0,
+        "diversity_ILD": 0.193,
+        "novelty": 0.809,
+        "top3": [
+          "Shubh Mangal Saavdhan",
+          "Wake Up Sid",
+          "2 States"
+        ],
+        "intent_mode": "llm"
+      },
+      {
+        "query": "Chinese xianxia fantasy romance series",
+        "n": 10,
+        "filter_precision": 1.0,
+        "diversity_ILD": 0.579,
+        "novelty": 0.18,
+        "top3": [
+          "Love Between Fairy and Devil",
+          "Till the End of the Moon",
+          "Eternal Love"
+        ],
+        "intent_mode": "llm"
+      },
+      {
+        "query": "something like Inception but from Bollywood",
+        "n": 10,
+        "filter_precision": 1.0,
+        "diversity_ILD": 0.461,
+        "novelty": 0.716,
+        "top3": [
+          "Peepli Live",
+          "7aum Arivu",
+          "Ishqiya"
+        ],
+        "intent_mode": "rules"
+      },
+      {
+        "query": "emotional father daughter story that will make me cry",
+        "n": 10,
+        "filter_precision": 1.0,
+        "diversity_ILD": 0.681,
+        "novelty": 9.966,
+        "top3": [
+          "My Father and My Son (Babam ve oglum)",
+          "By the Law",
+          "It Runs in the Family"
+        ],
+        "intent_mode": "llm"
+      },
+      {
+        "query": "slow burn revenge kdrama",
+        "n": 10,
+        "filter_precision": 1.0,
+        "diversity_ILD": 0.358,
+        "novelty": 0.152,
+        "top3": [
+          "The Glory",
+          "Angel's Revenge",
+          "Nice Guy"
+        ],
+        "intent_mode": "rules"
+      }
+    ],
+    "mean_filter_precision": 1.0,
+    "mean_diversity": 0.496
+  },
+  "movielens_ranking": {
+    "users": 300,
+    "Popularity": {
+      "HR@10": 0.35,
+      "NDCG@10": 0.0798,
+      "Recall@10": 0.077,
+      "coverage": 0.0099
+    },
+    "Content": {
+      "HR@10": 0.1333,
+      "NDCG@10": 0.0192,
+      "Recall@10": 0.0206,
+      "coverage": 0.1769
+    },
+    "CF (SVD fold-in)": {
+      "HR@10": 0.4267,
+      "NDCG@10": 0.087,
+      "Recall@10": 0.0948,
+      "coverage": 0.1595
+    },
+    "Hybrid": {
+      "HR@10": 0.46,
+      "NDCG@10": 0.0881,
+      "Recall@10": 0.1018,
+      "coverage": 0.1658
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "seed": 111,
+    "tmdb": 0,
+    "tvmaze": 1492,
+    "wikidata": 4632,
+    "movielens": 9742
+  },
+  "cf": "trained on MovieLens",
+  "n_titles": 15752,
+  "by_industry": {
+    "Hollywood": 22,
+    "Bollywood": 817,
+    "Tollywood": 803,
+    "Korean": 1244,
+    "Chinese": 728,
+    "Japanese": 957,
+    "Kollywood": 730,
+    "Mollywood": 779,
+    "Global": 9672
+  },
+  "embedding_backend": "lsa",
+  "seconds": 231.7,
+  "built_at": "2026-11-09 23:27",
+  "ml_downloaded": true
+}
